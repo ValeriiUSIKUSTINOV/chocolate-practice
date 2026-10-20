@@ -17,6 +17,13 @@
       href="./images/icons/logo_chocolate.svg"
       type="image/xml+svg"
     />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Normalize styles -->
     <link
       rel="stylesheet"
@@ -26,58 +33,71 @@
       referrerpolicy="no-referrer"
     />
     <!--Custom styles-->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!--Header section-->
-    <header id="home">
-      <a href="./index.html"
-        >SIMPLY CHOCOLATE
+    <header class="header" id="home">
+      <a class="logo" href="./index.html">
+        <i>SIMPLY</i> CHOCOLATE
         <img
+          class="logo-icon"
           src="./images/icons/logo_chocolate.svg"
           alt="Site logo"
           width="24"
           height="24"
         />
       </a>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#made">How it’s made?</a></li>
-          <li><a href="#review">Chocolate is loved</a></li>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#made">How it’s made?</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#review">Chocolate is loved</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#home">Home</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="socials">
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             ><img
+              class="socials-icon"
               src="./images/icons/facebook.svg"
               alt="Facebook icon"
               width="24"
               height="24"
           /></a>
         </li>
-        <li>
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             ><img
+              class="socials-icon"
               src="./images/icons/instagram.svg"
               alt="Instagram icon"
               width="24"
               height="24"
           /></a>
         </li>
-        <li>
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
             ><img
+              class="socials-icon"
               src="./images/icons/twitter.svg"
               alt="Twitter icon"
               width="24"
@@ -94,7 +114,7 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button" style="background-color: #fd9222">Buy now</button>
+        <button type="button">Buy now</button>
         <button type="button">How it&#39;s made</button>
         <a href="#benefits"
           >scroll down

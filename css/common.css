@@ -1,3 +1,47 @@
+/*Global styles*/
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+  background-color: #fafafa;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+/*Base styles*/
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.logo-icon {
+}
+
+/*Socials styles*/
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
 }
