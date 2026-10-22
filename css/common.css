@@ -45,3 +45,38 @@ address {
 }
 .socials-icon {
 }
+/*Button*/
+.btn {
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+.btn-filled {
+  color: #fff;
+  background-color: #fd9222;
+}
+
+.btn-filled:hover,
+.btn-filled:focus {
+  background: rgba(253, 146, 34, 0.1);
+  color: #fd9222;
+}
+
+.btn-outlined {
+}
+.primary {
+  color: #fff;
+}
+.primary:hover,
+.primary:focus {
+  color: #fd9222;
+}
+
+.secondary {
+  color: #111;
+}
+.secondary:hover,
+.secondary:focus {
+  color: #fff;
+  background-color: #fd9222;
+}

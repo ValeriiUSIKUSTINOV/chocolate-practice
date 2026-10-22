@@ -109,16 +109,19 @@
     <!--Main section-->
     <main>
       <!--Hero section-->
-      <section id="hero">
-        <h1>
+      <section class="hero" id="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <button type="button">How it&#39;s made</button>
-        <a href="#benefits"
+        <button class="btn btn-filled" type="button">Buy now</button>
+        <button class="btn btn-outlined primary" type="button">
+          How it&#39;s made
+        </button>
+        <a class="hero-link" href="#benefits"
           >scroll down
           <img
+            class="hero-link-icon"
             src="./images/icons/arrow-down.svg"
             alt="Arrow down icon"
             width="22"
@@ -126,21 +129,21 @@
         /></a>
       </section>
       <!--Benefits section-->
-      <section id="benefits">
+      <section class="benefits" id="benefits">
         <h2>Our benefits</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Unsurpassed taste</h3>
+            <p class="benefits-description">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Affordable price</h3>
+            <p class="benefits-description">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -148,9 +151,9 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-subtitle">Own production</h3>
+            <p class="benefits-description">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -432,7 +435,9 @@
             </p>
           </li>
         </ul>
-        <button type="button">Leave a review</button>
+        <button class="btn btn-outlined secondary" type="button">
+          Leave a review
+        </button>
       </section>
     </main>
     <!--Footer section-->
